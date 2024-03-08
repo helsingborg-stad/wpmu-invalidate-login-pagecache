@@ -13,10 +13,13 @@ class WPMUInvalidateLoginPagecache
 {
     public function __construct()
     {
+
+        add_action('login_enqueue_scripts', [$this, 'addLoginScript']);
     }
 
-    public function func($a)
-    {
+    public function addLoginScript()
+    {   
+        wp_enqueue_script('wpmu-invalidate-login-pagecache', plugins_url('assets/js/loginCacheInvalidator.js', __FILE__), array(), '1.0', true);
     }
 }
 
