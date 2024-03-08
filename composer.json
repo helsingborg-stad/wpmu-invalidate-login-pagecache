@@ -1,7 +1,7 @@
 {
     "name": "helsingborg-stad/wpmu-invalidate-login-pagecache",
     "homepage": "https://github.com/helsingborg-stad/wpmu-invalidate-login-pagecache",
-    "description": "",
+    "description": "Invalidates pagecache on submit of the login form.",
     "type": "wordpress-muplugin",
     "license": "MIT",
     "authors": [

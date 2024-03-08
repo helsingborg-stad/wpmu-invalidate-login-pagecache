@@ -2,7 +2,7 @@
 
 /*
 Plugin Name:    WPMU Invalidate Login Pagecache
-Description:    -
+Description:    Invalidates pagecache on submit of the login form.
 Version:        1.0.0
 Author:         Sebastian Thulin
 */
